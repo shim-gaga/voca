@@ -17,11 +17,7 @@ public class WordCRUD implements ICRUD{
 
     @Override
     public Object add() {
-<<<<<<< HEAD
-        System.out.println(" => 난이도(1, 2, 3) & 새 단어 입력: ");
-=======
         System.out.println("=> 난이도(1, 2, 3) & 새 단어 입력: ");
->>>>>>> 1b5eb33 (modify .gitignore file.)
         int level = s.nextInt();
         String word = s.nextLine();
 
