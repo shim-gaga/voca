@@ -23,7 +23,10 @@ public class WordManager {
                 // list
                 wordCRUD.listAll();
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1b5eb33 (modify .gitignore file.)
         }
     }
 
