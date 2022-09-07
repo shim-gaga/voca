@@ -4,8 +4,6 @@ public class Word {
     private String word;
     private String meaning;
 
-    Word() {}
-
     Word(int id, int level, String word, String meaning) {
         this.id = id;
         this.level = level;
@@ -48,7 +46,7 @@ public class Word {
     /*
      1 * electric 전기의, 전기를 생산하는
      2 * pole 기둥, 장대
-  대  */
+    */
     @Override
     public String toString() {
         String slevel = "";
